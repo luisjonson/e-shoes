@@ -29,6 +29,7 @@
   --light-gray-2-rgba: rgba(0, 0, 0, 0.15);
   --light-gray-3-rgba: rgba(245, 245, 245, 1);
   --white-rgba: rgba(255, 255, 255, 1);
+  
 }
 
 * {
@@ -55,11 +56,33 @@ a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
-  color:
-    var(--light-gray);
+  color: var(--light-gray);
   white-space: nowrap;
 }
 
 a:hover {
   color: var(--dark-gray);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+ul  li {
+  margin-bottom: 1px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+hr{
+  max-width: 1300px;       
+  margin: 0 auto;     
+  border: 0.5px solid white; 
 }
