@@ -1,4 +1,4 @@
-:root{
+:root {
   --primary: #C92071;
   --secondary: #B5B6F2;
   --tertiary: #991956;
@@ -13,7 +13,7 @@
   --light-gray-2: #CCCCCC;
   --light-gray-3: #F5F5F5;
   --white: #FFFFFF;
-  
+
   --primary-rgba: rgba(201, 32, 113, 1);
   --secondary-rgba: rgba(181, 182, 242, 1);
   --Tertiary-rgba: rgba(153, 25, 86, 1);
@@ -31,23 +31,35 @@
   --white-rgba: rgba(255, 255, 255, 1);
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   min-height: 100vh;
   color: var(--dark-gray);
-  background-color: var(  --light-gray-3);
+  background-color: var(--light-gray-3);
   font-family: 'Poppins', sans-serif;
 }
 
-.primary-button{
+.primary-button {
   width: 114;
   height: 40;
   border-radius: 8px;
   color: var(--primary)
 }
 
+a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color:
+    var(--light-gray);
+  white-space: nowrap;
+}
+
+a:hover {
+  color: var(--dark-gray);
+}
