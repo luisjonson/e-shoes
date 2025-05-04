@@ -9,7 +9,6 @@ const Header = () => {
   const HandleContainer = styled.header`
     .container{
       background-color: var(--white);
-
       padding: 20px;
       height: 20vh;
       display: flex;
@@ -19,7 +18,6 @@ const Header = () => {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      height: 192px;
       gap:20px;
         &.search input{
           width: 80%;
@@ -42,17 +40,6 @@ const Header = () => {
           color: red !important;
         }
 
-        /* &.search span{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color: var(--primary);
-          color: green;
-          width: 40px;
-          height: 20px;
-          border-radius: 50px;
-          color: var(--dark-gray-2);
-        } */
         &.search .carrinho{
           display: flex;
           position: relative; /* necessário para a bolinha se posicionar relativa a este container */
@@ -77,7 +64,6 @@ const Header = () => {
         } 
       }
     }
-
     & .navegacao{
       gap: 20px;
       height: 20vh;
@@ -85,22 +71,19 @@ const Header = () => {
       list-style: none;
       align-items: center;
       justify-content: space-between;
-
       &.navegacao ul {
         gap: 20px;
         display:flex;
         list-style: none;
         align-items: center;
         justify-content: start;
-    
         & li a {
           font-size: 16px;
           font-weight: 500;
           text-decoration: none;
           color: var(--dark-gray-2);
-
           &:hover {
-            color: #000000;
+            color: var(--dark-gray);
             text-decoration: underline;
           }
         }

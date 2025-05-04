@@ -39,9 +39,6 @@
 
 body{
   min-height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
   color: var(--dark-gray);
   background-color: var(  --light-gray-3);
   font-family: 'Poppins', sans-serif;
