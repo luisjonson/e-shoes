@@ -18,3 +18,7 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Material Icon theme
 ## Simple React Snippets
 ## javaScript auto backticks
+## vscode-styled-components
+
+# Biblioteca
+## npm install styled-components
