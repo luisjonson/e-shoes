@@ -42,7 +42,7 @@ const Header = () => {
           color: red !important;
         }
 
-        &.search span{
+        /* &.search span{
           display: flex;
           justify-content: center;
           align-items: center;
@@ -52,6 +52,28 @@ const Header = () => {
           height: 20px;
           border-radius: 50px;
           color: var(--dark-gray-2);
+        } */
+        &.search .carrinho{
+          display: flex;
+          position: relative; /* necessário para a bolinha se posicionar relativa a este container */
+          align-items: center;
+          justify-content: center;
+          
+          &.carrinho span{
+            top: 0px;  /* ajuste conforme necessário */
+            right: 97px;  /* ajuste conforme necessário */
+            width: 20px;
+            height: 20px;
+            display: flex;
+            cursor: pointer;
+            font-size: 12px;
+            border-radius: 50%;
+            position: absolute; /* agora podemos posicionar no canto */
+            color: var(--white);
+            align-items: center;
+            justify-content: center;
+            background-color: var(--primary);
+          }
         } 
       }
     }
@@ -95,8 +117,10 @@ const Header = () => {
 
           <Link to="cadastre">Cadastre-se</Link>
           <button>Entrar</button>
-          <img src={carrinho} alt="Carrinho" />
-          <span>0</span>
+          <div className="carrinho">
+            <img src={carrinho} alt="Carrinho" />
+            <span>0</span>
+          </div>
         </div>
         <nav className='navegacao'>
           <ul>
