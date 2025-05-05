@@ -54,7 +54,7 @@ function Footer() {
       <div className="conteiner-footer">
         <div className="footerSection">
           <img src={logofooter} alt="Logo Footer" className="sectionTitle" />
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora dolorem dolor nemo hic eaque repudiandae, doloremque ea sit magnam vitae atque ab expedita esse quas facilis itaque, suscipit velit omnis!</p>
+          <p>Na Digital College, aprenda com professores renomados no mercado em um ambiente totalmente presencial, preparando-o diretamente para o mercado de trabalho.</p>
           <div className="parceiro">
             <img src={facebook} alt="Facebook" />
             <img src={instagram} alt="Instagram" />

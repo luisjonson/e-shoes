@@ -102,3 +102,7 @@ img {
     align-items: center;
     justify-content: start;
 }
+
+.navegacao ul li a.active{
+    color: var(--dark-gray);
+}
